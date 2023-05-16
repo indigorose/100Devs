@@ -68,7 +68,7 @@
 // console.log(y)
 
 // when we store values as objects, we copy the information unlike literal values
-// Therefore Primative are copied by their value, Objects are copied by their reference.
+// Therefore Primitive are copied by their value, Objects are copied by their reference.
 
 // let number = 10;
 
@@ -172,6 +172,5 @@ class Stopwatch {
         this.duration = 0;
         this.reset = 0;
         this.start = 0;
-
     }
 }
