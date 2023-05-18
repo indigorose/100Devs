@@ -1,3 +1,5 @@
+//  Class 30 and 31 - OOP but it actually makes sense, Inheritance and polymorphism.
+
 // Espresso Machine
 // class EspressoMachine {
 //     constructor(beans, water, milk, sugar){
@@ -53,3 +55,18 @@ console.log('I like milk, from cow to oat, I\'ll make it froth');
 let gaggia = new EspressoMachine('red', 'gaggia', 'Classic Pro', 500)
 
 
+function AgencyContractor (hourlyRate, hours, taxRate){
+    this.hours = hours;
+    this.taxRate = taxRate;
+    // let variables are not bound to the object and cannot be called with dot notation. -  hence abstraction!!!
+    let rate = hourlyRate;
+    let calculateProfit = function(){
+        return rate * this.hours * (1 - this.taxRate)
+    }
+    this.invoiceClient = function() {
+        return `Your invoice total is ${rate * this.hours}`
+    }
+}
+
+let karen = new AgencyContractor (250, 160, .35)
+console.log (karen.invoiceClient())
