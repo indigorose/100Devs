@@ -5,11 +5,9 @@ nodejs_notes/node_modules/undefsafe/README.md
 nodejs_notes/node_modules/undefsafe/package.json
 nodejs_notes/node_modules/undefsafe/LICENSE
 nodejs_notes/node_modules/undefsafe/example.js
-nodejs_notes/node_modules/undefsafe/.travis.yml
-nodejs_notes/index.js
-nodejs_notes/package-lock.json
-nodejs_notes/package.json
-nodejs_notes/person.js
+nodejs_notes/node_modules/undefsafe/.travis.ym
+
+
 nodejs_notes/node_modules/.package-lock.json
 nodejs_notes/node_modules/.bin/nodemon
 nodejs_notes/node_modules/.bin/nodetouch
@@ -289,3 +287,5 @@ nodejs_notes/node_modules/simple-update-notifier/src/borderedText.ts
 nodejs_notes/node_modules/simple-update-notifier/node_modules/semver/ranges/valid.js
 nodejs_notes/node_modules/simple-update-notifier/node_modules/semver/ranges/to-comparators.js
 nodejs_notes/reference/test/hello.txt
+nodejs_notes/node_modules/undefsafe/.travis.yml
+nodejs_notes/person.js
