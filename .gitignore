@@ -6,7 +6,7 @@ nodejs_notes/node_modules/undefsafe/package.json
 nodejs_notes/node_modules/undefsafe/LICENSE
 nodejs_notes/node_modules/undefsafe/example.js
 nodejs_notes/node_modules/undefsafe/.travis.ym
-
+node_modules
 
 nodejs_notes/node_modules/.package-lock.json
 nodejs_notes/node_modules/.bin/nodemon
@@ -289,3 +289,4 @@ nodejs_notes/node_modules/simple-update-notifier/node_modules/semver/ranges/to-c
 nodejs_notes/reference/test/hello.txt
 nodejs_notes/node_modules/undefsafe/.travis.yml
 nodejs_notes/person.js
+.vscode/settings.json
