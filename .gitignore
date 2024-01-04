@@ -290,3 +290,4 @@ nodejs_notes/reference/test/hello.txt
 nodejs_notes/node_modules/undefsafe/.travis.yml
 nodejs_notes/person.js
 .vscode/settings.json
+nodejs_notes/.DS_Store
