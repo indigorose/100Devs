@@ -1,0 +1,27 @@
+.section {
+	border: 1px solid black;
+	width: 500px;
+	height: 300px;
+	margin: 50px auto;
+}
+.header {
+	border: 1px solid black;
+	height: 15%;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.row--1 {
+	border: 1px solid grey;
+	height: 100%;
+	width: 100%;
+}
+.row_2 {
+	height: 80px;
+}
+
+.footer {
+	height: 50px;
+	border: 1px solid grey;
+}
