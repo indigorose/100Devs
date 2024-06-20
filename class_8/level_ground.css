@@ -1,0 +1,12 @@
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+
+nav,
+header,
+section,
+div {
+	border: 1px solid black;
+	margin: 0 auto;
+}
