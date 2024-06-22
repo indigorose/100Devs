@@ -1,11 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;0,900;1,500&family=Oswald:wght@200;300;400;500;700&display=swap');
 /* Box Model Hack */
 * {
 	box-sizing: border-box;
 }
 
-nav,
-header,
-section,
-div {
-	border: 1px solid black;
+/* Clear fix hack */
+.clearfix:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', 'Oswald', serif, sans-serif;
+	font-size: 1.3rem;
+}
+
+h1,
+h2 {
+	font: 'Oswald';
+	text-transform: uppercase;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
