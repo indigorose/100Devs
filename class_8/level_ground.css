@@ -24,7 +24,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Montserrat', 'Oswald', serif, sans-serif;
+	font-family: 'Oswald', 'Montserrat', serif, sans-serif;
 	font-size: 1.3rem;
 }
 
@@ -37,10 +37,108 @@ h2 {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* HEADER */
+/******************************************/
+
 header {
+	background-color: #66768a;
+	color: #f1f1f1;
 }
 
-footer {
+.row {
+	display: flex;
+	flex-direction: column;
+}
+.nav {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-between;
+}
+/* ul {
+	border: 1px solid black; 
+} */
+
+.nav__list--primary {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav__item {
+	list-style: none;
+	text-decoration: none;
+	padding: 0 0.5em;
+}
+
+.nav__link {
+	text-transform: uppercase;
+	color: #f1f1f1;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 1rem;
+	letter-spacing: 0.05rem;
+	font: serif;
+}
+.nav__list--secondary {
+	align-items: flex-end;
+}
+
+.nav__list--secondary > .nav__item > .nav__link {
+	background-color: #f1f1f1;
+	color: #66768a;
+	padding: 5px 9px;
+	border-radius: 5px;
+}
+
+/* HERO */
+/******************************************/
+
+.hero {
+	background-color: #66768a;
+	padding: 20px;
+}
+.hero > .container {
+	border: 1px solid red;
+	max-width: 60%;
+	width: 810px;
+	margin: 0 auto;
+}
+.hero__title {
+	border: 1px solid black;
+	font-size: 3rem;
+	text-align: center;
+	color: #f1f1f1;
+	font-weight: 500;
+	letter-spacing: 0.05rem;
+}
+.hero__text {
+	text-align: center;
+	border: 1px solid white;
+}
+
+.hero__link {
+	text-align: center;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.accent {
+	border: 1px solid black;
+	font-size: 1.3rem;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+	max-width: 60%;
+	width: 810px;
+	margin: 0 auto;
+	padding: 3em;
+}
+
+.accent__text {
+	max-width: 65%;
+	margin: 0 auto;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-size: 0.9rem;
 }
 
 /******************************************
