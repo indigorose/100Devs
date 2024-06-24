@@ -102,6 +102,7 @@ header {
 	max-width: 60%;
 	width: 810px;
 	margin: 0 auto;
+	text-align: center;
 }
 .hero__title {
 	border: 1px solid black;
@@ -112,15 +113,32 @@ header {
 	letter-spacing: 0.05rem;
 }
 .hero__text {
+	color: #f1f1f1;
 	text-align: center;
 	border: 1px solid white;
 }
 
 .hero__link {
 	text-align: center;
-	max-width: 50%;
+	display: inline-block;
 	margin: 0 auto;
+	color: #f1f1f1;
+	text-decoration: none;
+	border: 1px solid white;
+	font-weight: 300;
+	font-size: 1rem;
+	font-family: 'Montserrat', serif;
 }
+
+.hero__text-footer {
+	font-size: 0.8rem;
+	font-family: 'Montserrat', serif;
+	color: #393e49;
+	padding-top: 4em;
+}
+
+/* ACCENT */
+/******************************************/
 
 .accent {
 	border: 1px solid black;
@@ -134,12 +152,75 @@ header {
 	padding: 3em;
 }
 
+.accent__title {
+	padding-bottom: 0;
+	margin-bottom: 0.3em;
+}
 .accent__text {
 	max-width: 65%;
 	margin: 0 auto;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	font-size: 0.9rem;
+	padding-bottom: 1.5em;
 }
+
+/* ARTICLE */
+/******************************************/
+.article {
+	background-color: #dbdfe2;
+}
+.article__container {
+	max-width: 65%;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.card {
+	border: 1px solid black;
+	margin: 1em;
+}
+
+.image {
+	max-width: 80%;
+	height: 175px;
+	background-color: #66768a;
+	margin: 0 auto;
+}
+
+.card {
+	text-align: center;
+}
+
+.card__title {
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.card__text {
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.card__link,
+.accent__button {
+	border: 0.5px solid black;
+	display: inline-block;
+	margin: 0 auto;
+	font-family: 'Montserrat';
+	font-size: 0.8rem;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+	padding: 1em 3em;
+	text-transform: uppercase;
+}
+
+/* FOOTER */
+/******************************************/
 
 /******************************************
 /* ADDITIONAL STYLES
